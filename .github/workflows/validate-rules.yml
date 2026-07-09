@@ -1,0 +1,23 @@
+name: Validate rules
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - name: Generate rule files
+        run: python3 scripts/build_rules.py
+      - name: Check generated files
+        run: |
+          if ! git diff --quiet; then
+            echo "Generated rule files are out of date."
+            git diff -- rule data
+            exit 1
+          fi

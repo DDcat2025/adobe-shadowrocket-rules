@@ -1,0 +1,19 @@
+# Adobe AI / generative features.
+# Keep this list narrow. Do not add login, Creative Cloud, Typekit, analytics, or generic Adobe domains.
+full:firefly.adobe.com
+full:photoshop.adobe.com
+full:illustrator.adobe.com
+full:preview.illustrator.adobe.com
+full:sensei.adobe.io
+full:image.adobe.io
+suffix:ff.adobe.io
+full:firefly-api.adobe.io
+full:firefly-services.adobe.io
+full:prod-rel-ffc-ccm.oobesaas.adobe.com
+full:ffc-static-cdn.oobesaas.adobe.com
+suffix:adobeprojectm.com
+full:cpassets.adobe.com
+full:api.elevenlabs.io
+keyword:aep-cs
+keyword:sharedcloud-production
+keyword:translate-captions

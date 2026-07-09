@@ -1,0 +1,8 @@
+# Behance website and media.
+suffix:behance.net
+suffix:s2stagehance.com
+full:mir-s3-cdn-cf.behance.net
+full:sso.behance.net
+full:cc-api-behance.adobe.io
+full:a3.behance.net
+full:a5.behance.net

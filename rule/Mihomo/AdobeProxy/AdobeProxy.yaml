@@ -1,0 +1,30 @@
+# NAME: AdobeProxy
+# AUTHOR: DDcat2025
+# REPO: https://github.com/DDcat2025/adobe-shadowrocket-rules
+# SOURCE: Adobe official network endpoint docs, Adobe Captivate endpoint docs, blackmatrix7 Adobe rule reference
+# TOTAL: 24
+payload:
+  - DOMAIN,a3.behance.net
+  - DOMAIN,a5.behance.net
+  - DOMAIN,api.elevenlabs.io
+  - DOMAIN,cc-api-behance.adobe.io
+  - DOMAIN,cpassets.adobe.com
+  - DOMAIN,ffc-static-cdn.oobesaas.adobe.com
+  - DOMAIN,firefly-api.adobe.io
+  - DOMAIN,firefly-services.adobe.io
+  - DOMAIN,firefly.adobe.com
+  - DOMAIN,illustrator.adobe.com
+  - DOMAIN,image.adobe.io
+  - DOMAIN,mir-s3-cdn-cf.behance.net
+  - DOMAIN,photoshop.adobe.com
+  - DOMAIN,preview.illustrator.adobe.com
+  - DOMAIN,prod-rel-ffc-ccm.oobesaas.adobe.com
+  - DOMAIN,sensei.adobe.io
+  - DOMAIN,sso.behance.net
+  - DOMAIN-KEYWORD,aep-cs
+  - DOMAIN-KEYWORD,sharedcloud-production
+  - DOMAIN-KEYWORD,translate-captions
+  - DOMAIN-SUFFIX,adobeprojectm.com
+  - DOMAIN-SUFFIX,behance.net
+  - DOMAIN-SUFFIX,ff.adobe.io
+  - DOMAIN-SUFFIX,s2stagehance.com
