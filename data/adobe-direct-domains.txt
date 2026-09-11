@@ -1,5 +1,5 @@
 # Adobe direct routes.
-# Put AdobeAI and Behance proxy rules before this direct rule in the client.
+# Put AdobeAI, Behance and AdobeStock proxy rules before this direct rule in the client.
 
 # Login and account
 suffix:adobelogin.com
@@ -64,19 +64,12 @@ full:faster.typekit.net
 full:platform-assets.typekit.net
 full:state.typekit.net
 
-# Acrobat, Sign, Stock and regular Adobe web services
+# Acrobat, Sign and regular Adobe web services
 suffix:acrobat.com
 suffix:adobedc.net
 suffix:adobedc.cn
 suffix:adobesign.com
 suffix:adobesigncdn.com
-suffix:adobestock.com
-suffix:ftcdn.net
-full:stock.adobe.com
-full:s.ftcdn.net
-full:t3.ftcdn.net
-full:t4.ftcdn.net
-full:v.ftcdn.net
 full:acrobat.adobe.com
 full:documentcloud.adobe.com
 
@@ -104,7 +97,7 @@ suffix:symcd.com
 suffix:thawte.com
 suffix:verisign.com
 
-# Broad Adobe domains that should stay direct after AdobeAI and Behance are matched first
+# Broad Adobe domains that should stay direct after AdobeAI, Behance and AdobeStock are matched first
 suffix:adobe.com
 suffix:adobe.io
 suffix:adobe.ly

@@ -2,7 +2,7 @@
 # AUTHOR: DDcat2025
 # REPO: https://github.com/DDcat2025/adobe-shadowrocket-rules
 # SOURCE: Adobe official network endpoint docs, Adobe Captivate endpoint docs, blackmatrix7 Adobe rule reference
-# TOTAL: 105
+# TOTAL: 98
 DOMAIN,account.adobe.com
 DOMAIN,acrobat.adobe.com
 DOMAIN,adobecloudpackager.adobe.io
@@ -41,18 +41,13 @@ DOMAIN,platform-assets.typekit.net
 DOMAIN,prod.adobeccstatic.com
 DOMAIN,prod.wam.adobe.com
 DOMAIN,public.adobecc.com
-DOMAIN,s.ftcdn.net
 DOMAIN,server.messaging.adobe.com
 DOMAIN,state.typekit.net
 DOMAIN,static.adobelogin.com
-DOMAIN,stock.adobe.com
-DOMAIN,t3.ftcdn.net
-DOMAIN,t4.ftcdn.net
 DOMAIN,udps.adobe.com
 DOMAIN,ui.messaging.adobe.com
 DOMAIN,use.typekit.com
 DOMAIN,use.typekit.net
-DOMAIN,v.ftcdn.net
 DOMAIN,workflow.licenses.adobe.com
 DOMAIN-SUFFIX,2o7.net
 DOMAIN-SUFFIX,acrobat.com
@@ -79,14 +74,12 @@ DOMAIN-SUFFIX,adobesc.com
 DOMAIN-SUFFIX,adobesign.com
 DOMAIN-SUFFIX,adobesigncdn.com
 DOMAIN-SUFFIX,adobess.com
-DOMAIN-SUFFIX,adobestock.com
 DOMAIN-SUFFIX,adobetag.com
 DOMAIN-SUFFIX,adobetarget.com
 DOMAIN-SUFFIX,assetsadobe.com
 DOMAIN-SUFFIX,creativecloud.com
 DOMAIN-SUFFIX,creativesdk.com
 DOMAIN-SUFFIX,demdex.net
-DOMAIN-SUFFIX,ftcdn.net
 DOMAIN-SUFFIX,geotrust.com
 DOMAIN-SUFFIX,globalsign.com
 DOMAIN-SUFFIX,godaddy.com

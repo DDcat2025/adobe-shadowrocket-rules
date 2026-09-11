@@ -68,13 +68,15 @@ def build(
 def main() -> None:
     adobe_ai = read_entries(Path("data/adobe-ai-domains.txt"))
     behance = read_entries(Path("data/behance-domains.txt"))
+    adobe_stock = read_entries(Path("data/adobe-stock-domains.txt"))
     adobe_direct = read_entries(Path("data/adobe-direct-domains.txt"))
 
     adobe_ai_rules = build("AdobeAI", adobe_ai, "AdobeAI", "AdobeAI")
     behance_rules = build("Behance", behance, "Behance", "Behance")
+    adobe_stock_rules = build("AdobeStock", adobe_stock, "AdobeStock", "AdobeStock")
     build("AdobeDirect", adobe_direct, "AdobeDirect", "AdobeDirect")
 
-    merged = sorted(set(adobe_ai_rules + behance_rules))
+    merged = sorted(set(adobe_ai_rules + behance_rules + adobe_stock_rules))
     write(
         Path("rule/Shadowrocket/AdobeProxy/AdobeProxy.list"),
         header("AdobeProxy", len(merged)) + merged,

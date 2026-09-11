@@ -1,0 +1,27 @@
+# Adobe Stock websites, API, previews and dedicated asset delivery.
+# Verified 2026-09-11 against:
+# https://helpx.adobe.com/business/enterprise/manage-services/configure-services/network-endpoints.html
+# https://developer.adobe.com/stock/docs/api/
+# https://wwwimages2.adobe.com/content/dam/cc/th/legal/servicetou/Adobe_Stock_Contributor_Agreement_Addl_Terms_th_TH_20240216.pdf
+# adobestock.com is migrated from the existing AdobeDirect inventory.
+# Stock suffix covers contributor.stock.adobe.com and other Stock subdomains.
+suffix:stock.adobe.com
+suffix:stock.adobe.io
+suffix:adobestock.com
+suffix:fotolia.com
+suffix:ftcdn.net
+suffix:astockcdn.net
+full:stock-landing-pages.adobe.io
+
+# Exact Adobe asset buckets listed in the official endpoint documentation.
+# Do not proxy all of amazonaws.com, s3.amazonaws.com or cloudfront.net.
+full:encoded-videos-0.s3.amazonaws.com
+full:fotolia-prod-3dobjects.s3.amazonaws.com
+full:fotolia-prod-audios-originals.s3.amazonaws.com
+full:fotolia-prod-templates.s3.amazonaws.com
+full:fotolia-prod-videos-0.s3.eu-west-1.amazonaws.com
+full:fotolia-prod-vectors.s3.eu-west-1.amazonaws.com
+full:stock-apex-images-prod-ew1.s3.eu-west-1.amazonaws.com
+full:stock-vip-processed-prod-irl1.s3.eu-west-1.amazonaws.com
+full:thumbs-0.s3.amazonaws.com
+full:videos-0.s3-eu-central-1.amazonaws.com
