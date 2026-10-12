@@ -1,0 +1,553 @@
+{
+  "source": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/83f37120c155f67c8eef43221dabe15cc3c95fec/rule/Shadowrocket/Adobe/Adobe.list",
+  "rules": [
+    {
+      "rule": "DOMAIN,cc-ext-prod-pkgs.s3.amazonaws.com",
+      "disposition": "existing-direct"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,10xfotolia.com",
+      "disposition": "stock-legacy"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,2o7.net",
+      "disposition": "existing-direct"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,acrobat.com",
+      "disposition": "existing-direct"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,adbecrsl.com",
+      "disposition": "added-direct"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,adobe-aemassets-value.com",
+      "disposition": "added-direct"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,adobe-audience-finder.com",
+      "disposition": "added-direct"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,adobe-video-partner-finder.com",
+      "disposition": "added-direct"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,adobe.com",
+      "disposition": "existing-direct"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,adobe.io",
+      "disposition": "existing-direct"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,adobe.ly",
+      "disposition": "existing-direct"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,adobeaemcloud.com",
+      "disposition": "existing-direct"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,adobeaemcloud.net",
+      "disposition": "existing-direct"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,adobeawards.com",
+      "disposition": "added-direct"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,adobecc.com",
+      "disposition": "existing-direct"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,adobecce.com",
+      "disposition": "existing-direct"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,adobeccstatic.com",
+      "disposition": "existing-direct"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,adobecontent.io",
+      "disposition": "existing-direct"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,adobecreativityawards.com",
+      "disposition": "added-direct"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,adobedc.cn",
+      "disposition": "existing-direct"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,adobedc.net",
+      "disposition": "existing-direct"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,adobedemo.com",
+      "disposition": "added-direct"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,adobedtm.com",
+      "disposition": "existing-direct"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,adobeexchange.com",
+      "disposition": "existing-direct"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,adobeexperienceawards.com",
+      "disposition": "added-direct"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,adobegov.com",
+      "disposition": "existing-direct"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,adobehiddentreasures.com",
+      "disposition": "added-direct"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,adobejanus.com",
+      "disposition": "existing-direct"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,adobeku.com",
+      "disposition": "added-direct"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,adobelanding.com",
+      "disposition": "added-direct"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,adobelogin.com",
+      "disposition": "existing-direct"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,adobeoobe.com",
+      "disposition": "existing-direct"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,adobeplatinumclub.com",
+      "disposition": "added-direct"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,adobeprojectm.com",
+      "disposition": "existing-proxy"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,adobesc.com",
+      "disposition": "existing-direct"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,adobesign.com",
+      "disposition": "existing-direct"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,adobesigncdn.com",
+      "disposition": "existing-direct"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,adobespark.com",
+      "disposition": "added-direct"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,adobess.com",
+      "disposition": "existing-direct"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,adobestock.com",
+      "disposition": "existing-proxy"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,adobetag.com",
+      "disposition": "existing-direct"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,adobetarget.com",
+      "disposition": "existing-direct"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,adobetcstrialdvd.com",
+      "disposition": "added-direct"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,adobetechcomm.com",
+      "disposition": "added-direct"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,adobetechcommcallback.com",
+      "disposition": "added-direct"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,adobetechcommdemo.com",
+      "disposition": "added-direct"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,adobexdplatform.com",
+      "disposition": "added-direct"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,assetsadobe.com",
+      "disposition": "existing-direct"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,authorxml.com",
+      "disposition": "added-direct"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,bam.nr-data.net",
+      "disposition": "reference-only"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,behance.net",
+      "disposition": "existing-proxy"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,bluefootcms.com",
+      "disposition": "added-direct"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,businesscatalyst.com",
+      "disposition": "added-direct"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,ccnsite.com",
+      "disposition": "added-direct"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,ccpsx.com",
+      "disposition": "added-direct"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,compresspdf.new",
+      "disposition": "added-direct"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,cotolia.com",
+      "disposition": "stock-legacy"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,creativecloud.com",
+      "disposition": "existing-direct"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,creativesdk.com",
+      "disposition": "existing-direct"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,demandbase.com",
+      "disposition": "reference-only"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,demdex.net",
+      "disposition": "existing-direct"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,developria.com",
+      "disposition": "added-direct"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,dollarfotoclub.com",
+      "disposition": "stock-legacy"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,dollarphotoclub.com",
+      "disposition": "stock-legacy"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,dollarphotosclub.com",
+      "disposition": "stock-legacy"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,douwriteright.com",
+      "disposition": "added-direct"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,echocdn.com",
+      "disposition": "added-direct"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,echosign.com",
+      "disposition": "added-direct"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,edgefonts.net",
+      "disposition": "added-direct"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,enablementadobe.com",
+      "disposition": "added-direct"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,ffotolia.com",
+      "disposition": "stock-legacy"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,fiotolia.com",
+      "disposition": "stock-legacy"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,foftolia.com",
+      "disposition": "stock-legacy"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,fonolia.com",
+      "disposition": "stock-legacy"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,fotiolia.com",
+      "disposition": "stock-legacy"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,fotoiia.com",
+      "disposition": "stock-legacy"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,fotolia-noticias.com",
+      "disposition": "stock-legacy"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,fotolia.cc",
+      "disposition": "stock-legacy"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,fotolia.com",
+      "disposition": "existing-proxy"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,fotolia.tv",
+      "disposition": "stock-legacy"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,fotolja.com",
+      "disposition": "stock-legacy"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,fptolia.com",
+      "disposition": "stock-legacy"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,ftcdn.net",
+      "disposition": "existing-proxy"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,geotrust.com",
+      "disposition": "existing-direct"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,gfotolia.com",
+      "disposition": "stock-legacy"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,globalsign.com",
+      "disposition": "existing-direct"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,godaddy.com",
+      "disposition": "existing-direct"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,gostorego.com",
+      "disposition": "added-direct"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,imagineecommerce.com",
+      "disposition": "added-direct"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,macromedia.com",
+      "disposition": "existing-direct"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,mageconf.com",
+      "disposition": "added-direct"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,mageconf.com.ua",
+      "disposition": "added-direct"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,magento.com",
+      "disposition": "added-direct"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,magento.net",
+      "disposition": "added-direct"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,magentocommerce.com",
+      "disposition": "added-direct"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,magentoliveconference.com",
+      "disposition": "added-direct"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,magentomobile.com",
+      "disposition": "added-direct"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,marketing-cloud.com",
+      "disposition": "existing-direct"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,marketing-nirvana.com",
+      "disposition": "added-direct"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,marketo.co.uk",
+      "disposition": "added-direct"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,marketo.com",
+      "disposition": "existing-direct"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,marketo.net",
+      "disposition": "existing-direct"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,marketo.tv",
+      "disposition": "added-direct"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,marketodesigner.com",
+      "disposition": "added-direct"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,marketolive.com",
+      "disposition": "added-direct"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,mktdns.com",
+      "disposition": "existing-direct"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,mkto-c0100.com",
+      "disposition": "added-direct"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,mktorest.com",
+      "disposition": "existing-direct"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,mktroute.com",
+      "disposition": "existing-direct"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,mobilemarketo.com",
+      "disposition": "added-direct"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,motolia.com",
+      "disposition": "stock-legacy"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,newrelic.com",
+      "disposition": "reference-only"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,omniroot.com",
+      "disposition": "existing-direct"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,omniture.com",
+      "disposition": "existing-direct"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,omtrdc.net",
+      "disposition": "existing-direct"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,pdf.new",
+      "disposition": "added-direct"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,photolia.net",
+      "disposition": "stock-legacy"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,photoshop.com",
+      "disposition": "existing-direct"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,placesdocs.com",
+      "disposition": "added-direct"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,revenue-performance-management.com",
+      "disposition": "added-direct"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,s2stagehance.com",
+      "disposition": "existing-proxy"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,scene7.com",
+      "disposition": "added-direct"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,sign.new",
+      "disposition": "added-direct"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,sundanceignite2016.com",
+      "disposition": "added-direct"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,symantec.com",
+      "disposition": "existing-direct"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,symcb.com",
+      "disposition": "existing-direct"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,symcd.com",
+      "disposition": "existing-direct"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,tenbyfotolia.com",
+      "disposition": "stock-legacy"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,thawte.com",
+      "disposition": "existing-direct"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,toutapp.com",
+      "disposition": "added-direct"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,typekit.com",
+      "disposition": "existing-direct"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,typekit.net",
+      "disposition": "existing-direct"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,verisign.com",
+      "disposition": "existing-direct"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,votolia.com",
+      "disposition": "stock-legacy"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,worldsecureemail.com",
+      "disposition": "added-direct"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,worldsecuresystems.com",
+      "disposition": "added-direct"
+    },
+    {
+      "rule": "DOMAIN-KEYWORD,adobe",
+      "disposition": "reference-only"
+    }
+  ]
+}

@@ -105,4 +105,21 @@ rules:
 - Adobe Captivate 受限网络功能端点说明。
 - blackmatrix7 的 Adobe Shadowrocket 总规则。
 
-本仓库刻意不复刻全量 Adobe 列表，而是只拆出需要代理的目标业务。
+代理规则仍以目标业务为界；社区总表的其余域名现在按直连、可选历史兼容和共享参考分类保留，不把全部 Adobe 或第三方共享服务强制代理。
+
+## 2026-10-12 补全与独立维护
+
+- 补齐官方 Firefly / Sensei 端点，包括 firefly.adobe.io、各应用后端、自定义模型训练与推理、模型资源和专用 S3 地址。只写专用主机，不代理整个 AWS。
+- 国际总规则中的 Adobe 模块移交本仓库；已有 AdobeAI、Behance、AdobeStock、AdobeProxy、AdobeDirect 地址保持有效。
+- 社区 Adobe 总表的 137 条条件逐条记录于 `data/community-dispositions.json`。新增常规 Adobe 家族域名并入 AdobeDirect；Stock 历史拼写/别名在 AdobeStockLegacy 中单独提供，不默认合入 AdobeProxy。
+- New Relic、Demandbase 等共享服务及 `DOMAIN-KEYWORD,adobe` 仅保存在参考清单，避免给无关网站误设 Adobe 策略。来源是社区分类，不代表当前所有权或可达性验证。
+- [综合规则仓库](https://github.com/DDcat2025/shadowrocket-routing-rules) 的国内/国际清单均排除本仓库接管的具体 Adobe 规则。客户端仍需把 AdobeProxy 放在 AdobeDirect 之前，再放通用国内/国际规则。
+- 导入不需要 HTTPS 解密；尚未在你的 Shadowrocket 真机上做完整功能验收。
+
+可选历史 Stock 规则：
+
+```ini
+RULE-SET,https://raw.githubusercontent.com/DDcat2025/adobe-shadowrocket-rules/main/rule/Shadowrocket/AdobeStockLegacy/AdobeStockLegacy.list,PROXY
+```
+
+上游社区数据来源及 GPL v2 许可证见 `data/community-dispositions.json` 和 `licenses/blackmatrix7-GPL-2.0.txt`。上述路由分类是本仓库的整理，不是上游原版。

@@ -17,3 +17,32 @@ full:api.elevenlabs.io
 keyword:aep-cs
 keyword:sharedcloud-production
 keyword:translate-captions
+
+# Official Adobe network endpoints verified 2026-10-12.
+# Firefly application backends, custom models and Sensei model resources.
+full:firefly-ai.adobe.io
+full:firefly-ps.adobe.io
+full:firefly.adobe.io
+full:firefly-ae.adobe.io
+full:firefly-st.adobe.io
+full:firefly-md.adobe.io
+full:firefly-prerelease.adobe.io
+full:firefly-acs.adobe.io
+full:firefly-cliov2.adobe.io
+full:firefly-beta.adobe.io
+full:firefly-balancer.adobe.io
+full:firefly-cme-training.adobe.io
+full:firefly-cme-inference.adobe.io
+full:firefly-clio-imaging-prerelease.adobe.io
+full:firefly-clio-imaging.adobe.io
+full:firefly-3di.adobe.io
+full:clio-assets.adobe.com
+full:firefly-cliov2.adobe.com
+full:pre-signed-firefly-prod.s3-accelerate.amazonaws.com
+full:pre-signed-firefly-prod.s3.amazonaws.com
+full:senseicore.adobe.io
+full:senseicore-ue1.adobe.io
+full:sensei-ue1.adobe.io
+full:sensei-va6.adobe.io
+full:senseimds.adobe.io
+full:mds-cdn.infra.adobesensei.io

@@ -1,0 +1,6 @@
+# Reference only: shared third-party providers and the broad adobe keyword.
+# These are not automatically assigned DIRECT or AdobeProxy.
+DOMAIN-SUFFIX,bam.nr-data.net
+DOMAIN-SUFFIX,demandbase.com
+DOMAIN-SUFFIX,newrelic.com
+DOMAIN-KEYWORD,adobe

@@ -27,11 +27,17 @@ proxy = [
     'fotolia-prod-templates.s3.amazonaws.com',
     'stock-apex-images-prod-ew1.s3.eu-west-1.amazonaws.com',
     'firefly.adobe.com', 'www.behance.net',
+    'firefly.adobe.io', 'firefly-ps.adobe.io', 'firefly-ae.adobe.io',
+    'firefly-cme-training.adobe.io', 'senseimds.adobe.io',
+    'mds-cdn.infra.adobesensei.io', 'pre-signed-firefly-prod.s3.amazonaws.com',
+    'pre-signed-firefly-prod.s3-accelerate.amazonaws.com',
 ]
 direct = ['account.adobe.com', 'ims-na1.adobelogin.com', 'fonts.adobe.com',
-          'creativecloud.com', 'cc-api-storage.adobe.io', 'helpx.adobe.com']
+          'creativecloud.com', 'cc-api-storage.adobe.io', 'helpx.adobe.com',
+          'scene7.com', 'adobespark.com', 'magento.com', 'use.edgefonts.net']
 unmatched = ['unrelated.s3.amazonaws.com', 'unrelated.cloudfront.net',
-             'notftcdn.net', 'ftcdn.net.example.org', 'stock.adobe.com.example.org']
+             'notftcdn.net', 'ftcdn.net.example.org', 'stock.adobe.com.example.org',
+             'firefly.adobe.io.example.org', 'newrelic.com', 'demandbase.com']
 
 for client in ['Shadowrocket', 'Mihomo']:
     for groups in [['AdobeProxy'], ['AdobeAI', 'Behance', 'AdobeStock']]:
@@ -46,4 +52,4 @@ for client in ['Shadowrocket', 'Mihomo']:
     }
     for name in ['AdobeAI', 'Behance', 'AdobeStock', 'AdobeProxy', 'AdobeDirect']:
         assert rules('Shadowrocket', name) == rules('Mihomo', name), name
-print('PASS: 96 routing scenarios; merged/split policies and client parity verified.')
+print(f'PASS: {2 * 2 * (len(proxy) + len(direct) + len(unmatched))} routing scenarios; merged/split policies and client parity verified.')

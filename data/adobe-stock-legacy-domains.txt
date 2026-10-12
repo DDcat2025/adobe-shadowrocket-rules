@@ -1,0 +1,22 @@
+# Optional community historical aliases; current ownership and availability are not guaranteed.
+suffix:10xfotolia.com
+suffix:cotolia.com
+suffix:dollarfotoclub.com
+suffix:dollarphotoclub.com
+suffix:dollarphotosclub.com
+suffix:ffotolia.com
+suffix:fiotolia.com
+suffix:foftolia.com
+suffix:fonolia.com
+suffix:fotiolia.com
+suffix:fotoiia.com
+suffix:fotolia-noticias.com
+suffix:fotolia.cc
+suffix:fotolia.tv
+suffix:fotolja.com
+suffix:fptolia.com
+suffix:gfotolia.com
+suffix:motolia.com
+suffix:photolia.net
+suffix:tenbyfotolia.com
+suffix:votolia.com
